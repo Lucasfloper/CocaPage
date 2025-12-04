@@ -176,4 +176,185 @@ filter: invert(1);
 
 .boximg .img4 {
     transform: rotate(-15deg);
+
+}
+
+/* ===========================
+   TELAS MÉDIAS – Tablets
+   =========================== */
+@media (max-width: 992px) {
+
+    section {
+        padding: 60px 40px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header {
+        padding: 20px 40px;
+    }
+
+    header .navegation li a {
+        margin-left: 40px;
+        font-size: 17px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .text {
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    .boximg {
+        position: relative;
+        margin-top: 40px;
+        right: auto;
+        bottom: auto;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .boximg img {
+        width: 110px;
+    }
+}
+
+/* ===========================
+   TELAS PEQUENAS – Celulares
+   =========================== */
+@media (max-width: 768px) {
+
+    html, body {
+        overflow: auto; /* permite scroll no mobile */
+    }
+
+    header {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    header .navegation ul {
+        margin-top: 15px;
+    }
+
+    header .navegation li a {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    .container .text h2 {
+        font-size: 2.2em;
+        line-height: 1.2em;
+    }
+
+    .container .text h2 span {
+        font-size: 2.7em;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    .icons {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 20px;
+    }
+
+    .icons li a {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+    }
+
+    .boximg img {
+        width: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    html, body {
+        overflow: auto; /* permite scroll no mobile */
+    }
+
+    header {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    header .navegation ul {
+        margin-top: 15px;
+    }
+
+    header .navegation li a {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    .container .text h2 {
+        font-size: 2.2em;
+        line-height: 1.2em;
+    }
+
+    .container .text h2 span {
+        font-size: 2.7em;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    .icons {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 20px;
+    }
+
+    .icons li a {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+    }
+
+    .boximg img {
+        width: 90px;
+    }
+}
+
+/* ===========================
+   TELAS MUITO PEQUENAS
+   =========================== */
+@media (max-width: 480px) {
+
+    header .navegation li a {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .container .text h2 {
+        font-size: 1.8em;
+    }
+
+    .container .text h2 span {
+        font-size: 2.2em;
+    }
+
+    .container .text a {
+        padding: 8px 20px;
+    }
+
+    .boximg img {
+        width: 75px;
+    }
+
+    .icons li a {
+        width: 35px;
+        height: 35px;
+    }
 }
